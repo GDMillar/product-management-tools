@@ -96,11 +96,12 @@ Anecdotes are accepted as starting points, but not as justification for admissio
 ## Folder Structure
 
 ```
-/playbooks/first-look
-README.md
-/examples
-/templates
-/variants
+/playbooks
+   /first-look
+      README.md
+      /examples
+      /templates
+      /variants
 ```
 
 - **examples/** - worked examples of real First Look decisions  
