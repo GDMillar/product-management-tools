@@ -423,3 +423,239 @@ The Approach section defines the **thinking engine** of First Look:
 
 To restate from the begginning of the chapter, this is the intellectual foundation of the entire playbook.
 
+---
+
+## Execution
+
+The Execution section describes how the First Look system actually operates: the cadence, artefacts, governance boundaries, an AI-assisted accelerators that turn judgement into a repeatable, high-quality intake process. It is intentionally non-granular. The goal is to make the system *real* without reducing it to a checklist.
+
+Treat this as the application of the approach.
+
+### 1. Cadence and Flow 
+
+First Look runs on a predictable, lightweight rhythm that preserves tempo without sacrificing rigour.
+
+#### **1. Intake (from the Front Door)**
+
+Requests arrive via the Navy Digital Front Door. As a member of the triage forum, the First Look Lead sees them early, shapes expectations, and prevents misrouted work entering DNA.
+
+#### **2. Interview**
+
+A structured conversation with the requester to uncover:
+
+- the real problem
+- the operational context
+- the user population (by persona)
+- the consequence of inaction
+- the hidden assumptions
+
+This is where solution bias is stripped away.
+
+#### **3. Sense‑Making and Artefact Creation**
+
+The raw submission and interview are transformed into:
+
+- a structured Jira Narrative  
+- a concise EXECSUM  
+- a clear articulation of known risks, dependencies, and burden placement  
+
+This is the conversion of intent into decision‑ready clarity.
+
+#### **4. First Look Review Panel**
+
+A weekly governance forum where:
+
+- the problem is examined  
+- the risks are surfaced  
+- the technical and operational perspectives converge  
+- a formal decision is made  
+
+This is the mandatory decision gate.
+
+#### **5. Outcome Communication**
+
+The requester receives:
+
+- the decision  
+- the rationale  
+- the next steps  
+- the pathway (Discovery, Dev, Federated, Clarification, Withdrawal)  
+
+This closes the loop cleanly and transparently.
+
+---
+
+### 2. Core Artefacts
+
+Execution produces two artefacts that encode the narrative and enable decision‑making.
+
+#### **A. Jira Narrative (Full Context Artefact)**
+
+A structured, canonical description of the problem, including:
+
+- Context  
+- Problem  
+- As‑Is  
+- Statement of User Need  
+- Impact if Not Delivered  
+- To‑Be  
+- Dependencies  
+- Risks  
+- Complexity Assessment  
+- Benefits  
+- Security Classification  
+- Access at Sea (Y/N)  
+- Requester and Contact History  
+
+This is the artefact inherited by Discovery or Development teams.
+
+#### **B. EXECSUM (Decision Artefact)**
+
+A concise, verbal‑ready summary used in the panel:
+
+- consequence‑led  
+- risk‑aware  
+- aligned to the decision surface  
+
+This is the artefact that enables fast, high‑quality decisions.
+
+---
+
+### 3. AI‑Assisted Acceleration
+
+AI is used as a **judgement amplifier**, not a substitute for expertise.
+
+#### **A. Pre‑Interview Preparation**
+
+AI accelerates:
+
+- foundational question generation  
+- clarifying question sets  
+- persona probes  
+- operational‑context checks  
+
+This ensures the interview is sharp and high‑yield.
+
+#### **B. Capturing the Interview**
+
+When using MS Teams, be sure to turn on the recording and transcription functions - as these artefacts will be significant time savers in the post-interview analysis and write-up. This must be explicitly put to all people on the call to give the opportunity for objections.
+
+#### **C. Post‑Interview Structuring**
+
+AI assists with:
+
+- transcript summarisation  
+- contradiction detection  
+- assumption surfacing  
+- narrative structuring  
+
+This reduces cognitive load and increases consistency.
+
+#### **D. Hostile‑Panel Simulation**
+
+Before the real panel, the First Look Lead should run adversarial simulations with M365 Copilot to test:
+
+- the strength of the narrative  
+- the defensibility of assumptions  
+- the clarity of the user need  
+- the coherence of the recommended pathway  
+
+This can equip the Lead to operate reactively and fluently in the room, having consciously sought to illuminate blindspots in thinking and analysis.
+
+#### **E. Bounded Outputs**
+
+AI is instructed to produce outputs to suit the forum, for example:
+
+- 2‑minute briefs  
+- 200‑word summaries  
+- 5‑bullet EXECSUMs  
+
+This keeps communication tight and decision‑ready.
+
+---
+
+### 4. Governance Boundaries
+
+Execution is anchored in clear, non‑negotiable governance.
+
+#### **A. Nothing Bypasses First Look Review**
+
+No matter the requester’s rank or urgency, the panel is the mandatory gate. Extraordinary Reviews may be convened out of sequence, but never simply accepted out-of-committee.
+
+#### **B. Extraordinary Sessions Are Rare**
+
+Used only for:
+
+- genuine operational necessity - eg. Urget Capability Requirements (UCR)
+- direction from two‑star prioritisation (or above)
+
+This prevents normalising process bypass.
+
+#### **C. Escalation Belongs to the Head of DNA**
+
+The First Look Lead provides subject matter expert (SME) support, but escalation authority sits above them.
+
+#### **D. Decision Outcomes Are Explicit**
+
+The panel selects one of five pathways:
+
+1. Accept to Dev Backlog - Discovery Required  
+2. Accept to Dev Backlog - No Discovery Required  
+3. Refer for Federated Development (many FedDev candiates are filtered out prior to First Look)
+4. Refer for Additional Clarity  
+5. Refer for Withdrawal  
+
+Each outcome has a defined next step and communication pattern.
+
+---
+
+### 5. Role of the First Look Lead
+
+The First Look Lead is the **translator and sense‑maker**, not the decider.
+
+Their responsibilities include:
+
+- extracting the real problem from solution‑biased requests  
+- surfacing operational and strategic consequences  
+- identifying risks, dependencies, and burden placement  
+- preparing the panel to make high‑quality decisions  
+- maintaining governance integrity  
+- protecting development capacity  
+- ensuring front line user pain is correctly weighted  
+- accelerating sense‑making through AI‑assisted workflows  
+
+In short:
+
+> **The First Look Lead creates clarity so others can make good decisions.**
+
+---
+
+### 6. What This Section Is Not
+
+This chapter deliberately avoids:
+
+- procedural checklists  
+- step‑by‑step tooling instructions  
+- screenshots  
+- personal productivity habits  
+
+The First Look system is a **judgement framework**, not a script.
+
+Competent operators can adapt the “how” to their own style, tools, and context.
+
+---
+
+### 7. What This Section Enables
+
+This Execution chapter makes the system:
+
+- legible  
+- repeatable  
+- teachable  
+- defensible  
+- scalable  
+
+Without reducing it to a junior PM's manual.
+
+---
+
