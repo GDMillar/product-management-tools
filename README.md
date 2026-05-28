@@ -13,7 +13,7 @@ There is focus on both practicality and theory. Tools that help PMs make better 
 This repo serves two audiences:
 
 - **My own practice** as a version controlled home for the tools I refine over time.
-- **Product peers** whol may find reusable artefacts for discovery, prioritisation, and decision making.
+- **Product peers** who may find reusable artefacts for discovery, prioritisation, and decision making.
 
 Everything here is designed to be portable, teachable, and actionable. 
 
