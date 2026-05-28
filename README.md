@@ -1,6 +1,4 @@
 # Product Management Tools
-![Status: Early Stage](https://img.shields.io/badge/status-early--stage-blue)
-![Lifecycle: Actively Evolving](https://img.shields.io/badge/lifecycle-actively--evolving-green)
 ![Project State](https://img.shields.io/badge/state-early--stage_•_actively--evolving-blueviolet)
 
 
