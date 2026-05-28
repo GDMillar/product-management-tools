@@ -34,7 +34,14 @@ These tools reflect a few core beliefs about effective product management:
 ## Repo Structure
 
 ```
-placeholder
+/category1
+  /artefact1
+    README.md
+    templates/
+    examples/
+  /artefact2
+/category2
+README.md
 ```
 
 Each folder contains:
