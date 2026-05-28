@@ -1,4 +1,6 @@
-# Playbook Overview
+# First Look Playbook
+
+## Playbook Overview
 
 This playbook defines the **First Look** operating model: a lightweight, high‑judgement intake and triage process for software requests entering Data & Navy Application (DNA) as the software delivery pillar of Navy Digital. It captures the principles, boundaries, and decision logic that ensure only strategically aligned, operationally meaningful work enters the development pipeline.
 
@@ -121,4 +123,303 @@ A minimal, high‑signal orientation for anyone running First Look.
 - Maintain a **changelog** with the DNA Transition Manager for updates to governance, templates, or decision logic.  
 - Route contributions through the **Head of DNA** or delegated governance owner.  
 - Treat this playbook as a **living document** — updated as patterns emerge and organisational needs evolve.
+
+---
+
+Below is the **full, detailed, senior‑grade Approach section** for your playbook.  
+It is written to the same altitude and tone as the Overview: authoritative, operational, and grounded in Defence reality.  
+It captures your mental models, heuristics, shortcuts, and decision taxonomy — the *thinking engine* behind First Look.
+
+---
+
+## Approach
+
+The Approach section defines the **judgement framework** that underpins First Look.  
+It captures the mental models, heuristics, and decision thresholds that allow a First Look Lead to convert ambiguous, inconsistent, or politically charged requests into clear, consequence‑driven decisions.
+
+This is the intellectual spine of the playbook.
+
+---
+
+### Operating Philosophy
+
+The First Look Lead is not the decider.  
+The First Look Lead is the **sense‑maker**.
+
+Your role is to:
+
+- translate requester intent into a problem the software organisation can understand  
+- surface operational and strategic consequences  
+- identify risks, dependencies, and burden placement  
+- prepare the panel to make a high‑quality decision  
+- protect development capacity  
+- protect front line operators from unnecessary burden  
+
+This is a **judgement role**, not an administrative one.
+
+---
+
+### Mental Models
+
+These are the core mental models that shape every First Look decision.
+
+#### Consequence First  
+The primary lens is not “importance” or “urgency”.  
+It is **consequence**.
+
+- What happens if we deliver this?  
+- What happens if we do not?  
+- Who carries the burden?  
+- What is the operational, safety, or strategic effect?  
+
+This prevents the backlog from being captured by loud voices or local optimisations.
+
+#### Front Line Weighting  
+Front line operators carry:
+
+- cognitive load  
+- legal responsibility  
+- fatigue  
+- environmental stress  
+- safety risk  
+
+Rear echelon staff do not.
+
+Therefore:
+
+> A small reduction in front line burden outweighs a large reduction in rear echelon inconvenience.
+
+This is a deliberate weighting, not a moral stance.
+
+#### Problem Before Solution  
+Most requests arrive as solutions:
+
+- “We need an app…”  
+- “We want a dashboard…”  
+- “Can you build a workflow that…”  
+
+Your job is to strip away the solution and expose the **problem**.
+
+#### Burden Placement  
+Every request shifts burden somewhere.
+
+You ask:
+
+- Who pays the cognitive cost?  
+- Who pays the operational cost?  
+- Who pays the integration cost?  
+- Who pays the maintenance cost?  
+
+If the burden shifts to the front line, the bar is extremely high.
+
+#### System Integrity  
+The First Look process is only credible if:
+
+- nothing bypasses the panel  
+- extraordinary sessions are rare  
+- decisions are consistent  
+- governance is respected  
+
+This protects the organisation from political gravity and “special case” erosion.
+
+---
+
+### Foundational Questions
+
+These two questions collapse 80% of ambiguity:
+
+1. **What do you need to be able to do that you cannot do now?**  
+2. **Who exactly are the users? Not groups — personas.**
+
+These force the requester into:
+
+- problem space  
+- operational reality  
+- user specificity  
+
+They expose assumptions instantly.
+
+---
+
+### Admission Thresholds
+
+Every request is evaluated against a four‑tier threshold model.
+
+#### Tier One  
+**Obviously clears threshold. Mission critical, safety critical, or strategically essential.**  
+These are accelerated.
+
+Example:  
+Assuring safe navigation through mined waterways.
+
+#### Tier Two  
+**Clears threshold but low momentum.**  
+Valid, aligned, but likely to be overtaken by higher‑tempo work.
+
+Example:  
+Push notifications for a BYOD HR app.
+
+#### Tier Three  
+**Ambiguous. Might clear threshold. Requires investigation.**  
+Often local optimisations disguised as strategic needs.
+
+Example:  
+Replicating a centralised MS Dynamics app for a local area.
+
+#### Tier Four  
+**Does not meet threshold. Reject.**  
+Cosmetic, convenience, or misaligned.
+
+Example:  
+Uber‑style bus stop displays on a naval base.
+
+This model keeps the backlog coherent and protects development capacity.
+
+---
+
+### Fast Kill Criteria
+
+These are the immediate reject or redirect signals.
+
+#### Not Our Domain  
+If it involves:
+
+- hardware  
+- infrastructure  
+- networking  
+
+It is not DNA. Redirect immediately.
+
+#### Misaligned Work  
+Reject if:
+
+- it adds burden to the front line  
+- it is cosmetic or convenience based  
+- it is a local optimisation with no organisational value  
+- it is technically irresponsible (for example, 100GB over a 2MB per second bearer)  
+- it is a solution with no problem  
+
+These are fast, principled decisions.
+
+---
+
+### Heuristics
+
+These heuristics classify the nature of the problem in seconds.
+
+- **Is this a data integration problem?**  
+  Likely Foundry.
+
+- **Is this a process automation problem?**  
+  Likely Power Platform.
+
+- **Does it need to be accessed outside MODNET, at sea, or internet facing?**  
+  Likely custom.
+
+This collapses the solution space quickly and accurately.
+
+---
+
+### Pattern Recognition
+
+With exposure, certain patterns become obvious:
+
+- “We need an app…” → solution bias  
+- “Starlink is fast now…” → technical naivety  
+- “Our area is unique…” → local optimisation  
+- “We just need a simple dashboard…” → hidden complexity  
+- “We already have a spreadsheet…” → process problem, not software problem  
+
+These patterns allow you to skip entire branches of analysis.
+
+---
+
+### AI as a Thinking Partner
+
+AI is treated as:
+
+> A very intelligent but contextually naive friend.
+
+You teach it the context.  
+It accelerates your thinking.
+
+AI supports:
+
+- question generation  
+- transcript summarisation  
+- contradiction detection  
+- "hostile panel" simulation  
+- narrative compression  
+
+It amplifies judgement without replacing it.
+
+---
+
+### Hostile Panel Preparation
+
+Before the real panel, you run adversarial simulations to test:
+
+- assumptions  
+- narrative coherence  
+- risk framing  
+- user need clarity  
+- consequence articulation  
+
+This is why you can operate reactively and fluently in the room.
+
+---
+
+### Room Reading
+
+During the panel, you watch for:
+
+- friction  
+- hesitation  
+- divergence  
+- misalignment  
+- technical discomfort  
+- architectural concern  
+
+You adjust altitude instantly:
+
+- operational detail  
+- user nuance  
+- strategic alignment  
+- technical feasibility  
+- risk framing  
+
+You re‑anchor when needed.
+
+---
+
+### Decision Interpretation
+
+The panel outputs one of five decisions:
+
+- Accept to Dev Backlog with Discovery  
+- Accept to Dev Backlog without Discovery  
+- Refer for Federated Development  
+- Refer for Additional Clarity  
+- Refer for Withdrawal  
+
+Your job is to execute the decision cleanly and communicate it clearly.
+
+---
+
+### Summary
+
+The Approach section defines the **thinking engine** of First Look:
+
+- consequence first  
+- front line weighting  
+- problem before solution  
+- burden placement  
+- governance integrity  
+- AI‑assisted sense making  
+- principled thresholds  
+- fast kill criteria  
+- pattern recognition  
+- hostile‑panel preparation  
+
+To restate from the begginning of the chapter, this is the intellectual foundation of the entire playbook.
 
